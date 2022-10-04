@@ -99,7 +99,7 @@ def generate_sudoku(sudoku, b):
     list_felder = []
     counter_zurückgesetzt = 0
     felder_zurückgesetzt = 0
-    while counter_zurückgesetzt < 50:
+    while counter_zurückgesetzt < 10:
         #random eine Zahl aus dem Sudoku löschen
         row, col = random_field()
         feld = row*col
