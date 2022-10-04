@@ -16,6 +16,17 @@ Algorithmus:
     3. checken ob bei zurückgesetzen Feld eine eindeutige Lösung vorhanden ist, wenn ja, Wiederholung des Prozessen wenn nein, zurücksetzen des Feldes auf ursprüngliche Zahl
     4. Abbruchkriterium, wenn gewünschte Anzahl an leeren Feldern erzeugt wurden oder beim 10. Versuch kein neues Feld mit eindeutiger Lösung gefunden wird
 
+
+Wie wird das Programm genutzt?
+Solver:
+    Aufruf des Programms in der Kommandozeile mit Eingabe der Datei, welche das Sudoku in csv Form beinnhaltet
+    z.B. mit Eingabe --> python solve_sudoku.py sudoku_1.csv
+
+Generator:
+    Aufruf des Programms in der Kommandozeile mit Eingabe der gewünschten leeren Feldanzahl
+    z.B. mit Eingabe --> python sudoku_generator.py 15
+
+
 Quellen:
 https://www.techwithtim.net/tutorials/python-programming/sudoku-solver-backtracking/
 https://www.askpython.com/python/examples/sudoku-solver-in-python

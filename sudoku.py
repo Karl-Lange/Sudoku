@@ -92,7 +92,7 @@ def check_eindeutigkeit(col, row, sudoku):
     return len(list_valid) == 1
 
 #Funktion zum Erzeugen eines neuen Sudokus mit input von einem leeren sudoku in nested list form und einem Parameter b,
-# welcher die Anzahl der leeren Felder (also im Endeffekt Schwirigkeit) angibt
+#welcher die Anzahl der leeren Felder (also im Endeffekt Schwirigkeit) angibt
 def generate_sudoku(sudoku, b):
     #ein leeres Sudoku lösen und damit ein zufälliges neues Sudoku erschaffen
     solve(sudoku)
